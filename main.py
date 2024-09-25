@@ -1,6 +1,3 @@
-import csv
-
-
 from numpy import *
 
 
@@ -54,8 +51,6 @@ def step_gradient(b_current, m_current, points, learning_rate):
 def run():
 
     # collect data
-    #with open('LinearData.csv', 'r') as file:
-     #   points = csv.reader(file, delimiter=',')
     points = genfromtxt('LinearData.csv', delimiter=',')
     # define hyperparameters
     # How fast should model converge?
