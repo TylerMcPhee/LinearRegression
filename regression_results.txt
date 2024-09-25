@@ -1,0 +1,2 @@
+Final b: 0.3344, Final m: 0.7008, Error: 1275.5269
+Regression line equation: y = 0.7008x + 0.3344
